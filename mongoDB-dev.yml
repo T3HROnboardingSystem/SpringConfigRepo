@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://t3:t3password@t3mongodb.uatiejk.mongodb.net/?appName=t3mongodb
+      database: t3mongodb
