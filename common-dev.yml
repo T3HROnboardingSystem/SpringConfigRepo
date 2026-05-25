@@ -13,8 +13,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   data:
     mongodb:
-      uri: mongodb+srv://t3:${MONGODB_PASSWORD}@t3mongodb.uatiejk.mongodb.net/?appName=${MONGODB_DATABASE}
-      database: ${MONGODB_DATABASE}
+      uri: mongodb+srv://t3:${MONGODB_PASSWORD}@t3mongodb.uatiejk.mongodb.net/?appName=t3mongodb
+      database: t3mongodb
 
 
 eureka:
