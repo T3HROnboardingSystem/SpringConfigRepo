@@ -1,5 +1,5 @@
-spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://t3:${MONGODB_PASSWORD}@t3mongodb.uatiejk.mongodb.net/?appName=${MONGODB_DATABASE}
-      database: ${MONGODB_DATABASE}
+# spring:
+#   data:
+#     mongodb:
+#       uri: mongodb+srv://t3:${MONGODB_PASSWORD}@t3mongodb.uatiejk.mongodb.net/?appName=${MONGODB_DATABASE}
+#       database: ${MONGODB_DATABASE}

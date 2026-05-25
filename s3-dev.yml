@@ -1,6 +1,6 @@
-aws:
-  s3:
-    region: us-east-1
-    bucket-name: t3-upload
-    access-key: ${S3_ACCESS}
-    secret-key: ${S3_SECRET}
+# aws:
+#   s3:
+#     region: us-east-1
+#     bucket-name: t3-upload
+#     access-key: ${S3_ACCESS}
+#     secret-key: ${S3_SECRET}

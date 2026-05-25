@@ -1,0 +1,27 @@
+aws:
+  s3:
+    region: us-east-1
+    bucket-name: t3-upload
+    access-key: ${S3_ACCESS}
+    secret-key: ${S3_SECRET}
+
+spring:
+  datasource:
+    url: jdbc:mysql://t3mysql.cs5okkgig7d2.us-east-1.rds.amazonaws.com:3306/t3mysql
+    username: ${MYSQL_USER}
+    password: ${MYSQL_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    mongodb:
+      uri: mongodb+srv://t3:${MONGODB_PASSWORD}@t3mongodb.uatiejk.mongodb.net/?appName=${MONGODB_DATABASE}
+      database: ${MONGODB_DATABASE}
+
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:10086/eureka
