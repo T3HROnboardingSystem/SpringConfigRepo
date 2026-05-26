@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: Email
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 70morkng@gmail.com
+    password: zqiyqoqgulrkivpl
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  data:
+    mongodb:
+      uri: mongodb+srv://t3_email:${MONGODB_PASSWORD}@t3mongodb.uatiejk.mongodb.net/${MONGODB_DATABASE}
+      database: ${MONGODB_DATABASE}
+
+server:
+  port: 8089
+
+rabbitmq:
+  queue: email_queue
+
+test:
+  email: 70mekng@gmail.com
