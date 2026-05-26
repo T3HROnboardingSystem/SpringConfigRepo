@@ -17,10 +17,10 @@ spring:
     port: 5672
     username: guest
     password: guest
-  data:
-    mongodb:
-      uri: mongodb+srv://t3_email:${MONGODB_PASSWORD}@t3mongodb.uatiejk.mongodb.net/${MONGODB_DATABASE}
-      database: ${MONGODB_DATABASE}
+  # data:
+  #   mongodb:
+  #     uri: mongodb+srv://t3_email:${MONGODB_PASSWORD}@t3mongodb.uatiejk.mongodb.net/${MONGODB_DATABASE}
+  #     database: ${MONGODB_DATABASE}
 
 server:
   port: 8089
